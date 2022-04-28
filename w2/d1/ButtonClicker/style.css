@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.navBar {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    padding: 1% 0;
+    margin-bottom: 1%;
+}
+
+.title {
+    margin: 0 3%;
+}
+
+.searchBar{
+    width: 70%;
+    margin-left: 10%;
+}
+
+#dojosearch {
+    width: 70%;
+    padding: 0.5%;
+}
+
+.button {
+    margin-right: 5%;
+}
+
+#login {
+    margin: 0;
+    border: 2px solid black;
+    background-color: rgb(34, 95, 222);
+    color: white;
+    text-align: center;
+    font-size: medium;
+    padding: 7px 15px;
+    box-shadow: 3px 3px 2px 1px black;
+}
+
+#login:hover {
+    background-color: rgb(87, 140, 255);
+}
+
+.mainBody {
+    width: 80%;
+    padding: 0.5%;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    column-gap: 2%;
+    /* background-color: aqua; */
+}
+
+.defCol {
+    width: 100%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: crimson; */
+}
+
+.sideCol {
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: chartreuse; */
+}
+
+.mainContentBox {
+    width: 90%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.sideContentBox {
+    width: 80%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.def1 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.def1 > * {
+    margin-bottom: 5%;
+}
+
+.def1 > .partOfSpeech, .plurals {
+    font-style: italic;
+}
+
+.def2 {
+    flex: 4;
+    margin-left: 1%;
+}
+
+#likeButton {
+    margin: 0;
+    border: 2px solid black;
+    background-color: rgb(255, 210, 84);
+    color: black;
+    text-align: center;
+    font-size: medium;
+    padding: 7px 20px;
+    box-shadow: 3px 3px 2px 1px black;
+}
+
+#likeButton:hover {
+    background-color: rgb(255, 229, 157);
+}
+
+.sideContent {
+    width: 90%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideContent > * {
+    margin-bottom: 3%;
+}
+
+#defButton {
+    margin: 0;
+    border: 2px solid black;
+    background-color: rgb(132, 186, 106);
+    color: black;
+    text-align: center;
+    font-size: medium;
+    padding: 7px 20px;
+    box-shadow: 3px 3px 2px 1px black;
+}
+
+#defButton:hover {
+    background-color: rgb(184, 255, 149);
+}

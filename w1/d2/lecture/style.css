@@ -1,0 +1,53 @@
+/*
+    CSS = Cascading Style Sheets
+        Things apply from the top down, they stay applied or get overwritten
+    About the style of the page (color, size, looks, etc...)
+        Need the code we're affecting & the thing(s) we're changing
+*/
+h1 {
+    background-color: mediumseagreen;
+    font-size: 45px;
+}
+
+p.notblue {
+    color: violet;
+}
+
+p {
+    color: cornflowerblue;
+    background-color: cadetblue;
+}
+
+.notblue { /* use "." to pick a class */
+    color: firebrick;
+}
+
+#middlep { /* use a "#" to select an id --> IDs are unique to a single item in the code */
+    background-color: lawngreen;
+    padding: 40px; /* padding, margin, & border can all have specifics for left/right/top/bottom */
+    padding-left: 10px;
+    margin: 25px; /* margin does not include the background */
+    border: 2px dotted blueviolet;
+}
+
+#megakitty {
+    height: 100px;
+}
+
+/* 
+    element selectors are worth 1 point
+    class selectors are worth 10 points
+    id selectors are worth 100 points
+
+    selectors w/ more "value" will override lower selectors w/ lower "values"
+
+    You can combine selectors for more specificity
+    Combined selectors have more weight than an individual selector (but not than an ID)
+    ex) p.notblue > .notblue
+*/
+
+div > p { /* selecting an element inside another element */
+    background-color: yellowgreen;
+}
+
+/* CSS selectors always select everything that matches them */

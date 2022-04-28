@@ -1,0 +1,35 @@
+div {
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.left {
+    flex: 2; /* parent flex will add up "total" flex width and auto-divide elements to fit inside  ** only works if the parent is flex ** */
+    background-color: aqua;
+}
+
+.right {
+    flex: 2;
+    background-color: yellow;
+}
+
+.middle {
+    flex: 3;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    background-color: coral;
+}
+
+.container {
+    padding: 10px;
+    display: flex; /* when you have a flex parent element, all of the things inside become flex items, not block elements */
+    justify-content: space-between; /* controls items in the direction of the flex */
+    /* flex-direction: column; /* default flex direction is a row */
+    align-items: center; /* controls items in the opposite direction of the flex - can add margin to have greater control*/
+    width: 95%;
+    height: 600px;
+}
+
+/* can also change flex attributes on items inside the main container w/ flex: */

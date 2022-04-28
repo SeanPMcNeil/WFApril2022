@@ -1,0 +1,212 @@
+* {
+    /* outline: 1px solid pink; */
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(39, 38, 38);
+    padding: 0 75px;
+}
+
+.nav-title {
+    flex: 1;
+    color: white;
+    padding-left: 30px;
+}
+
+.nav-links {
+    flex: 4;
+    padding-right: 15px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+
+a:hover {
+    color: rgb(30, 145, 170);
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bolder;
+    color: white;
+}
+
+.btn {
+    flex: 2;
+}
+
+.btn button {
+    margin-left: auto;
+    background-color: rgb(30, 145, 170);
+    border: 3px solid black;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+}
+
+.main {
+    padding: 30px 40px 0px 40px;
+    width: 900px;
+    /* height: 900px; */
+    display: flex;
+}
+
+.focus {
+    flex: 2;
+    margin:10px;
+    height: 100%;
+}
+
+.user, .requests {
+    margin-bottom: 20px;
+}
+
+.extra > a {
+    text-decoration: underline;
+    color: rgb(27, 145, 170);
+}
+
+.head {
+    height: 80px;
+    background-color: rgb(27, 145, 170);
+    border: 3px solid rgb(27, 145, 170);
+}
+
+.profile {
+    height: 90px;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px lightgray;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.body {
+    border: 3px solid lightgray;
+    border-top: 0px;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding: 50px 30px 15px 45px;
+}
+
+.location, .detail {
+    margin-top: 15px;
+}
+
+.map {
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+.extra {
+    margin-top: 25px;
+}
+
+.gear {
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.eduhead, .reqhead, .connhead {
+    padding: 0px 0px 0px 20px;
+    height: 40px;
+    border: 3px solid rgb(38, 38, 38);
+    background-color: rgb(38, 38, 38);
+    color: lightgray;
+}
+
+.edubody, .reqbody, .connbody, .connfoot {
+    padding: 15px;
+    border: 3px solid lightgray;
+    border-top: 0px;
+}
+
+.reqbody, .connbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.person {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edubody > * {
+    margin-bottom: 5px;
+}
+
+.side {
+    flex: 1;
+    margin: 10px;
+    height: 100%;
+}
+
+h3 {
+    line-height: 40px;
+}
+
+h3 > span {
+    background-color: lightgray;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.picture {
+    flex: 1;
+}
+
+.picture img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.otherusername {
+    flex: 2;
+    align-self: center;
+}
+
+.decide {
+    flex: 1;
+    display: inline-flex;
+    align-self: center;
+}
+
+.decide img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.edubody > h3 {
+    color: gray;
+}
+
+.connfoot > a {
+    text-decoration: underline;
+    color: rgb(27, 145, 170);
+}

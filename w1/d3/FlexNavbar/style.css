@@ -1,0 +1,48 @@
+.nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(39, 38, 38, 0.851);
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title {
+    color: white;
+    padding-left: 15px;
+    font-weight: lighter;
+}
+
+.nav-links {
+    padding-right: 15px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-weight: lighter;
+}
+
+a:hover {
+    color: rgb(30, 145, 170);
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bolder;
+    color: white;
+}
+
+.btn {
+    background-color: rgb(30, 145, 170);
+    border: 3px solid black;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 2px 2px black;
+}

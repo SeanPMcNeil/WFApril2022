@@ -1,0 +1,50 @@
+.parent {
+    height: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child {
+    height: 150px;
+}
+
+.ggc {
+    height: 100px;
+    background-color: aqua;
+}
+
+
+.parent > .child {
+    /* applies styling to only child that are direct descendant of the parent */
+    /* without the > styling applies to any descendant matching the child class (like class="child ggc") */
+    background-color: violet;
+    border: 5px dotted pink;
+}
+
+.parent, .child {
+    /* applies styling to all parent AND all child */
+    border: 4px dashed green;
+    /* background-color: cornflowerblue; */
+}
+
+.parent.child {
+    /* looking for something that is both a parent AND a child */
+    border: 10px solid black;
+}
+
+.child:hover {
+    background-color: blue;
+}
+
+.mid {
+    flex: 2;
+}
+
+.first {
+    flex: 1;
+}
+
+.last {
+    flex: 3;
+}

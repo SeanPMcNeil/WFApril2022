@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    /* outline: 1px dashed firebrick; */
+}
+
+.topBar, .topCities {
+    height: 80px;
+    background-color: rgb(143, 183, 247);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topCities {
+    width: 30%;
+    font-size: larger;
+    list-style-type: none;
+}
+
+.topCities a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.topCities a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.mainbody {
+    width: 70%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.pageHead {
+    width: 70%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.currentCity {
+    margin: 0;
+    /* padding-left: 5%; */
+}
+
+.tempDisplay {
+    margin: 0;
+    /* padding-right: 7%; */
+}
+
+.weatherBody {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather {
+    margin: 2% 0 0 0;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather > * {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.weather > h3 {
+    font-weight: 500;
+}
+
+.weatherImg {
+    height: 125px;
+    border-radius: 50%;
+}
+
+.highLow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.cookieJar {
+    margin-top: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 67%;
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cookieText {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cookieText p {
+    padding-top: 1%;
+}
+
+.accept {
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(143, 183, 247);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.accept:hover {
+    background-color: rgb(45, 124, 252);
+    cursor: pointer;
+}

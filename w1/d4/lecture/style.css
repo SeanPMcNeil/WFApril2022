@@ -1,0 +1,53 @@
+* {
+    /* * has a weight of 0 and therefore will no overwrite anything later on the page */
+    /* outline: 1px solid pink;  */
+    /* outline has 0 effect on the spacing on the page | border does effect spacing */
+    padding: 0;
+    margin: 0;
+    /* resets the browser's default styling to be more consistent across browsers*/
+}
+
+p {
+    background-color: bisque;
+}
+
+/* don't abuse Position, use it when you have to */
+
+.bob {
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    position: fixed;
+    /* like absolute, but the object stays where you define */
+    /* position: absolute; */
+    /* the element will stay where you define it no matter what  - also stays where you initially define*/
+    bottom: 10px;
+    /* distance from bottom */
+    right: 50px;
+    /* distance from right */
+    /* can define top/bottom left/right but you only need one from each direction */
+}
+
+.carl {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    position: relative;
+    /* relative moves an object relative to it's original position */
+    top: 30px;
+    left: 25px;
+}
+
+.stick {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: sticky;
+    /* sticks to it's nearest scrolling ancestor only when it overlaps */
+    bottom: 30px;
+    /* needs a top/bottom and/or left/right to know it needs to stick during a scroll */
+    /* can use both a top and bottom to tell it to stick on either scroll */
+}

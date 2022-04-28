@@ -1,0 +1,52 @@
+.container {
+    width: 800px;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: midnightblue;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.top {
+    border: 5px dotted dodgerblue;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    background-color: forestgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle {
+    border: 5px dashed red;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom {
+    border: 5px solid black;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.octocat {
+    height: 200px;
+}

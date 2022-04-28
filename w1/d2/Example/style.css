@@ -1,0 +1,20 @@
+h1 {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.green {
+    background-color: mediumseagreen;
+}
+
+#red {
+    background-color: tomato;
+}
+
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
+
